@@ -1,4 +1,3 @@
-# import sys
 import os
 
 
@@ -19,9 +18,6 @@ def run_command(command):
     print("Running command: {}".format(command))
     os.system(command)
 
-
-# commands = "start.cmd"
-# run_command(commands)
 
 for command in commands:
     run_command(command)
