@@ -1,5 +1,8 @@
 Install:
 
-poetry shell
 
-py start.py
+
+        poetry shell
+.
+
+        py start.py
